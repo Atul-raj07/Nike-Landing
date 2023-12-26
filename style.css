@@ -1,0 +1,61 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+font-family: Gilroy;
+}
+html,body{
+height: 100%;
+width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: darkseagreen;
+}
+#page1{
+    height: 100%;
+    width: 100%;
+    background: hotpink ;
+}
+#up{
+    height: 50%;
+    width: 100%;
+    background: linear-gradient(to right,rgb(26, 28, 26),rgb(40, 50, 39));
+    padding: 0px 100px;
+    padding-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.maincard{
+    height: 100%;
+    width: 33%;
+    background-color: transparent;
+    padding: 0px 20px;
+}
+.card{
+    margin-top: 40px;
+    height: 500px;
+    width: 100%;
+    background-color: white;
+}
+#upcard{
+    height: 230px;
+    width: 100%;
+    background-color: red;
+    position: relative;
+    padding: 20px;
+}
+#upcard #logo img{
+    height: 60px;
+    background-color: darkcyan;
+}
+#upcard>img{
+    height: 55vh;
+    rotate: 348deg;
+    position: absolute;
+    top: 10%;
+    left: 55%;
+    transform: translate(-50%,-50%);
+}
